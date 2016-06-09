@@ -12,4 +12,6 @@
  
  */
 
+- (void)drawStarFrameForWords:(NSArray *)words;
+
 @end

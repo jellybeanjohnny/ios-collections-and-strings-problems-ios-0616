@@ -13,6 +13,8 @@
 		7CCEBA68207A8F8CA0D3025C /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F3D872064AC86D1A5CDD9 /* libPods-unit_tests.a */; };
 		915F8BBBB731E6D8178E0308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE580214B86D58CA0255F54 /* main.m */; };
 		BC4E8D02A97AE314E3C29F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0865F970058F19CBDE0DE7 /* Main.storyboard */; };
+		C912A5BD1D09A73F005DC9EB /* NSString+PigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = C912A5BC1D09A73F005DC9EB /* NSString+PigLatin.m */; };
+		C912A5C01D09B689005DC9EB /* NSArray+CombineArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = C912A5BF1D09B689005DC9EB /* NSArray+CombineArrays.m */; };
 		F0007968464D04C37286CF57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022A997D110D4229F652CAA5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,10 @@
 		9CE580214B86D58CA0255F54 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A25611638F2011760C5180B6 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		C912A5BB1D09A73F005DC9EB /* NSString+PigLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PigLatin.h"; sourceTree = "<group>"; };
+		C912A5BC1D09A73F005DC9EB /* NSString+PigLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PigLatin.m"; sourceTree = "<group>"; };
+		C912A5BE1D09B689005DC9EB /* NSArray+CombineArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CombineArrays.h"; sourceTree = "<group>"; };
+		C912A5BF1D09B689005DC9EB /* NSArray+CombineArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CombineArrays.m"; sourceTree = "<group>"; };
 		D91A685363B9037BFBDD5F6F /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +141,10 @@
 				C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */,
 				6A0865F970058F19CBDE0DE7 /* Main.storyboard */,
 				BFA97D4562F6E0C667972CF7 /* Resources */,
+				C912A5BB1D09A73F005DC9EB /* NSString+PigLatin.h */,
+				C912A5BC1D09A73F005DC9EB /* NSString+PigLatin.m */,
+				C912A5BE1D09B689005DC9EB /* NSArray+CombineArrays.h */,
+				C912A5BF1D09B689005DC9EB /* NSArray+CombineArrays.m */,
 			);
 			path = "ios-collections-and-strings-problems";
 			sourceTree = "<group>";
@@ -303,6 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0789857865B4D24D0B32EFC5 /* FISAppDelegate.m in Sources */,
+				C912A5C01D09B689005DC9EB /* NSArray+CombineArrays.m in Sources */,
+				C912A5BD1D09A73F005DC9EB /* NSString+PigLatin.m in Sources */,
 				28A9785A03C375671CF3096F /* LaunchScreen.xib in Sources */,
 				915F8BBBB731E6D8178E0308 /* main.m in Sources */,
 			);
